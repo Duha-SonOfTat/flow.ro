@@ -1,0 +1,74 @@
+body{
+	background-color:#86ade8 ;
+	margin: 0;
+	border: 0;
+	padding: 0;
+	overflow: hidden;
+}
+.frontpage{
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+}
+.felho1{
+	height: 20vh;
+	position: absolute;
+	bottom: 0vh;
+	left: 70vw;
+	animation-name: cloudan1;
+	animation-duration: 10s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+@keyframes cloudan1{
+	0%{	
+		height: 20vh;
+		bottom: -20vh;
+		left: 70vw;
+	}
+	45.45%{
+		height: 45vh;
+		bottom: 80vh;
+	}
+	54.54%{
+		height: 50vh;
+		bottom: 100vh;
+		left: 0vw;
+	}
+	100%{
+		height: 50vh;
+		bottom: 100vh;
+		left: 0vw;
+	}
+}
+.felho2{
+	height: 20vh;
+	position: absolute;
+	bottom: -20vh;
+	left: 70vw;
+	animation-name: cloudan2;
+	animation-duration: 10s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+@keyframes cloudan2{
+	0%{	
+		height: 20vh;
+		bottom: -20vh;
+		left: 70vw;
+	}
+	45.45%{	
+		height: 20vh;
+		bottom: -20vh;
+		left: 70vw;
+	}
+	90.91%{
+		height: 45vh;
+		bottom: 80vh;		
+	}
+	100%{
+		height: 50vh;
+		bottom: 100vh;
+		left: 0vw;
+	}
+}
