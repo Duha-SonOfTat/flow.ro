@@ -4,11 +4,16 @@ body{
 	border: 0;
 	padding: 0;
 	overflow: hidden;
+	position: absolute;
 }
 .frontpage{
+	position: absolute;
 	width: 100vw;
 	height: 100vh;
 	overflow: hidden;
+	background: url(blokk.png);
+	background-size: cover;
+	background-position: center center;
 }
 .felho1{
 	height: 20vh;
@@ -16,32 +21,25 @@ body{
 	bottom: 0vh;
 	left: 70vw;
 	animation-name: cloudan1;
-	animation-duration: 10s;
+	animation-duration: 5s;
 	animation-timing-function: linear;
 	animation-iteration-count: infinite;
+	z-index: -1;
 }
 @keyframes cloudan1{
-	0%{	
+	0%{
 		height: 20vh;
-		bottom: -20vh;
-		left: 70vw;
-	}
-	45.45%{
-		height: 45vh;
-		bottom: 80vh;
-	}
-	54.54%{
-		height: 50vh;
-		bottom: 100vh;
-		left: 0vw;
+		bottom: 30vh;
+		left: 90vw;
 	}
 	100%{
-		height: 50vh;
+		height: 40vh;
 		bottom: 100vh;
-		left: 0vw;
-	}
+		left: 20vw;
+	}	
 }
-.felho2{
+
+/*.felho2{
 	height: 20vh;
 	position: absolute;
 	bottom: -20vh;
@@ -50,6 +48,7 @@ body{
 	animation-duration: 10s;
 	animation-timing-function: linear;
 	animation-iteration-count: infinite;
+	z-index: -1;
 }
 @keyframes cloudan2{
 	0%{	
@@ -71,4 +70,4 @@ body{
 		bottom: 100vh;
 		left: 0vw;
 	}
-}
+}*/
